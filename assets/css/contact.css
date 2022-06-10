@@ -1,0 +1,7 @@
+#contact-section {
+    height: calc(100vh - 64px);
+    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

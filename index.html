@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <link rel="stylesheet" href="./assets/css/about.css">
+    <title>Meu Portifólio</title>
+    <script src="https://kit.fontawesome.com/d374dd1618.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-wrapper black">
+                <ul id="nav-mobile" class="right">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#about-section">SOBRE</a></li>
+                    <li><a href="#">PROJETOS</a></li>
+                    <li><a href="#">CERTIFICADOS</a></li>
+                    <li><a href="#">CONTATE-ME</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="home-section black row">
+            
+            <div id="sidebar" class="col s12 m4 l2 black">
+                <div class="social-container center-align row">
+                    <a href="#" class="social-item row"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" class="social-item row"><i class="fa-brands fa-figma"></i></a>
+                    <a href="#" class="social-item row"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-item row"><i class="fa-brands fa-github-alt"></i></a>
+                </div>
+                <div class="message row">
+                    <a href="#about-section" class="white-text">scroll down</a>
+                </div>
+            </div>
+            
+            <div id="main-content" class="col s12 m8 l10 valign-wrapper">
+                <img src="./assets/img/profile-photo.jpg" class="profile-photo circle">
+                <span id="home-name" class="center-align">Nome</span>
+                <span id="desc-home" class="center-align-text white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+            </div>
+
+        </section>
+
+        <section id="about-section">
+            <div class="about-info">
+                <div class="img">
+                    <img src="./assets/img/black-hole.png">
+                </div>
+
+                <div class="about-text">
+                    <div class="col">
+                        <div class="col s1">
+                            <h1 id="about">SOBRE</h1>
+                        </div>
+                        <div class="col s1">
+                            <h1 id="name">Nome</h1>
+                        </div>
+                        <div class="col s1">
+                            <h2 id="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat nulla adipisci totam fugit deleniti accusamus ea quisquam, rerum veritatis facere at numquam. Deleniti blanditiis tempore, praesentium quisquam magni officiis ipsum?</h2>
+                        </div>
+                    </div>
+                    <div id="habilities">
+                        <div class="col">
+                            <div class="col s1">
+                                <h1>Habilidades</h1>
+                            </div>
+                            <div id="skills">
+                                <div class="left col">
+                                    <div class="col s1">
+                                        <div class="row">
+                                            <h3 class="hab white-text">HTML</h3>
+                                        </div>
+                                    </div>
+                                    <div class="col s1">
+                                        <div class="row">
+                                            <h3 class="hab white-text">CSS</h3>
+                                        </div>
+                                    </div>
+                                    <div class="col s1">
+                                        <div class="row">
+                                            <h3 class="hab white-text">Java</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right col">
+                                    <div class="col s1">
+                                        <div class="row">
+                                            <h3 class="hab white-text">Figma</h3>
+                                        </div>
+                                    </div>
+                                    <div class="col s1">
+                                        <div class="row">
+                                            <h3 class="hab white-text">Git</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        
+    </footer>
+
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.scrollspy').scrollSpy();
+        });
+    </script>
+</body>
+
+</html>

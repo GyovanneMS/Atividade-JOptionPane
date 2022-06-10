@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+}
+
+.projeto-titulo{
+    padding-bottom: 50px;
+}
+
+.projetos{
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+/* .img-8{
+    filter: brightness(25%);
+    background-image: url(icone.png);
+} */
+
+.imagens-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.waves-effect{
+    padding-left: 20px;
+    color: antiquewhite;
+}
+
+#tudo:onclick{
+
+}
+
+.imagem{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 30px;
+}
+
+.paraMais{
+    background-image: url(aleatoria6.jpg);
+    max-width: 100vw;
+    width: 250px;
+    height: 140px;
+}
+
+.todas-as-imagens{
+    position: absolute;
+    background-color: black;
+}
